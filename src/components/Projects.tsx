@@ -38,7 +38,7 @@ const Projects = () => {
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/Desafio1DNC/">
                   <img
-                    src="src\assets\project1.png"
+                    src="src\assets\project1.svg"
                     alt="Project"
                     border-radius="8px"
                     width={260}
@@ -60,7 +60,7 @@ const Projects = () => {
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/RID182828_Desafio2/">
                   <img
-                    src="src\assets\project2.png"
+                    src="src\assets\project2.svg"
                     alt="Project"
                     border-radius="8px"
                     width={260}
@@ -81,7 +81,7 @@ const Projects = () => {
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/RID182828_Desafio03/">
                   <img
-                    src="src\assets\project3.png"
+                    src="src\assets\project3.svg"
                     alt="Project"
                     border-radius="8px"
                     width={260}
@@ -102,7 +102,7 @@ const Projects = () => {
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/Trabalho-UFC-ICC/">
                   <img
-                    src="src\assets\project4.png"
+                    src="src\assets\project4.svg"
                     alt="Project"
                     border-radius="8px"
                     width={260}
