@@ -26,6 +26,10 @@ const CardContainer = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+const StyledImage = styled.img`
+max-width: 100%; // Garante que a imagem não exceda o contêiner
+border-radius: 8px; // Usar border-radius no CSS
+`;
 
 const Projects = () => {
   return (
@@ -37,13 +41,7 @@ const Projects = () => {
             <StyledCard>
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/Desafio1DNC/">
-                  <img
-                    src=".\project1.png"
-                    alt="Project"
-                    border-radius="8px"
-                    width={260}
-                    height={150}
-                  />
+                <StyledImage src=".\project1.png" alt="Project" width={260} height={150} />
                 </a>
                 <H2>Site construtora</H2>
                 <P>
@@ -59,13 +57,7 @@ const Projects = () => {
             <StyledCard>
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/RID182828_Desafio2/">
-                  <img
-                    src=".\project2.png"
-                    alt="Project"
-                    border-radius="8px"
-                    width={260}
-                    height={150}
-                  />
+                <StyledImage src=".\project2.png" alt="Project" width={260} height={150} />
                 </a>
                 <H2>Blog de notícias</H2>
                 <P>
@@ -80,13 +72,7 @@ const Projects = () => {
             <StyledCard>
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/RID182828_Desafio03/">
-                  <img
-                    src=".\project3.png"
-                    alt="Project"
-                    border-radius="8px"
-                    width={260}
-                    height={150}
-                  />
+                <StyledImage src=".\project3.png" alt="Project" width={260} height={150} />
                 </a>
                 <H2>Task list</H2>
                 <P>
@@ -101,13 +87,7 @@ const Projects = () => {
             <StyledCard>
               <FadeInSection>
                 <a href="https://jmkoygg.github.io/Trabalho-UFC-ICC/">
-                  <img
-                    src=".\project4.png"
-                    alt="Project"
-                    border-radius="8px"
-                    width={260}
-                    height={150}
-                  />
+                <StyledImage src=".\project4.png" alt="Project" width={260} height={150} />
                 </a>
                 <H2>Requsitando API</H2>
                 <P>
