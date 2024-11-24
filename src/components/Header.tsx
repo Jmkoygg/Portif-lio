@@ -36,6 +36,8 @@ const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  overflow-x: hidden;
+  
 `;
 
 const Logo = styled.div`
@@ -45,6 +47,9 @@ const Logo = styled.div`
 const Nav = styled.nav`
   display: flex;
   gap: 20px;
+  @media (max-width: 570px) {
+    display: none;
+  }
 `;
 
 const NavItem = styled.a`

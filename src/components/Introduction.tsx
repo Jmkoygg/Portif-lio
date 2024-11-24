@@ -5,6 +5,7 @@ import styled from "styled-components";
 const StyledIntroduction = styled.article`
   margin-top: 10rem;
   transition: opacity 0.5s ease-in-out;
+  overflow-x: hidden;
 `;
 const StyledDesc = styled.div`
   padding: 0.2rem 0 0 3rem;

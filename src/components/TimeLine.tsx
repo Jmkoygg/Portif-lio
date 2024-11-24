@@ -42,6 +42,7 @@ const Container = styled.div`
   transition: opacity 0.5s ease-in-out;
   padding: 20px;
   color: #ffffff;
+  overflow-x: hidden;
 `;
 
 const Title = styled.h2`
@@ -56,6 +57,10 @@ const TimelineContainer = styled.div`
   padding-top: 20px;
   border-top: 2px solid #ffffff;
   position: relative;
+
+  @media (max-width: 530px) {
+  flex-direction: column;
+  }
 `;
 
 export default Timeline;

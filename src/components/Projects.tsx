@@ -14,13 +14,16 @@ const StyledCard = styled.div`
   box-shadow: 0px 0px 12px 0px #ffffff;
   padding: 4%;
   text-align: center;
+  @media (max-width: 420px) {
+  width: 80%;
+  }
 `;
 const CardContainer = styled.div`
   margin-top: 3rem;
   display: grid;
   grid-template-columns: 2fr 2fr;
-  gap: 50px;
   justify-items: center;
+  gap: 5rem;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
