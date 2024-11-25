@@ -92,7 +92,7 @@ const Projects = () => {
                 <a href="https://jmkoygg.github.io/Trabalho-UFC-ICC/">
                 <StyledImage src=".\project4.png" alt="Project" width={260} height={150} />
                 </a>
-                <H2>Requsitando API</H2>
+                <H2>Requisitando API</H2>
                 <P>
                   Um site tematizado para a faculdade UFC que consegue consumir
                   uma API de cep e retorna as informações com funções
