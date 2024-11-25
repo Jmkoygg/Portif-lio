@@ -43,7 +43,7 @@ const Projects = () => {
           <CardContainer>
             <StyledCard>
               <FadeInSection>
-                <a href="https://jmkoygg.github.io/Desafio1DNC/">
+                <a href="https://jmkoygg.github.io/Site-construtora/">
                 <StyledImage src=".\project1.png" alt="Project" width={260} height={150} />
                 </a>
                 <H2>Site construtora</H2>
@@ -51,7 +51,7 @@ const Projects = () => {
                   Uma Landing page, de uma construtora para coletar dados,
                   utilizando HTML, CSS e JS
                 </P>
-                <a href="https://jmkoygg.github.io/Desafio1DNC/">
+                <a href="https://jmkoygg.github.io/Site-construtora/">
                   <StyledButton>Saber Mais</StyledButton>
                 </a>
               </FadeInSection>
@@ -59,7 +59,7 @@ const Projects = () => {
 
             <StyledCard>
               <FadeInSection>
-                <a href="https://jmkoygg.github.io/RID182828_Desafio2/">
+                <a href="https://jmkoygg.github.io/Blog-responsivo/">
                 <StyledImage src=".\project2.png" alt="Project" width={260} height={150} />
                 </a>
                 <H2>Blog de notícias</H2>
@@ -67,14 +67,14 @@ const Projects = () => {
                   Blog de notícias utilizando CSS para fazer a responsividade do
                   site em todos os tipos de tela
                 </P>
-                <a href="https://jmkoygg.github.io/RID182828_Desafio2/">
+                <a href="https://jmkoygg.github.io/Blog-responsivo/">
                   <StyledButton>Saber Mais</StyledButton>
                 </a>
               </FadeInSection>
             </StyledCard>
             <StyledCard>
               <FadeInSection>
-                <a href="https://jmkoygg.github.io/RID182828_Desafio03/">
+                <a href="https://jmkoygg.github.io/Task-list/">
                 <StyledImage src=".\project3.png" alt="Project" width={260} height={150} />
                 </a>
                 <H2>Task list</H2>
@@ -82,7 +82,7 @@ const Projects = () => {
                   Uma task list totalmente funcional, utilizando HTML, CSS e
                   principalmente JS com manipulação de DOM
                 </P>
-                <a href="https://jmkoygg.github.io/RID182828_Desafio03/">
+                <a href="https://jmkoygg.github.io/Task-list/">
                   <StyledButton>Saber Mais</StyledButton>
                 </a>
               </FadeInSection>
